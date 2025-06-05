@@ -32,4 +32,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Coffee Delivery
 
-- [Acesse o projeto finalizado, online](jhonimattos.github.io/coffeelist/).
+- [Acesse o projeto finalizado, online](https://coffeelistt.netlify.app/).
