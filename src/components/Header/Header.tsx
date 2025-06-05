@@ -1,7 +1,7 @@
 import { MapPin, ShoppingCart } from "phosphor-react";
 import { CartButton, HeaderContainer, LocaleAndBuy } from "./styles";
 
-import logocoffedelivery from "../../../assets/logo-coffeedelivery.svg";
+import logocoffedelivery from "../../../public/assets/logo-coffeedelivery.svg";
 import { useCart } from "../../contexts/CartContext";
 
 import { NavLink } from "react-router-dom";

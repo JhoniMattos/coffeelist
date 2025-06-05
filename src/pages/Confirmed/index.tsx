@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { MapPin, CurrencyDollar, Timer } from "phosphor-react";
 import { Container, OrderConfirmed } from "./styles";
-import delivery from "../../../assets/delivery.svg";
+import delivery from "../../../public/assets/delivery.svg";
 
 const paymentMethodMap = {
   credit: "Cartão de Crédito",

@@ -9,9 +9,9 @@ import {
 
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 
-import coffecup from "../../../assets/coffee-cup.svg";
+import coffecup from "../../../public/assets/coffee-cup.svg";
 import { CoffeeCards } from "./components/CoffeeCards";
-import background from "../../../assets/background.png";
+import background from "../../../public/assets/background.png";
 
 import { CoffeeList as coffee } from "../../@types/coffees";
 
