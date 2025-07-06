@@ -75,6 +75,7 @@ export const BenefitsGrid = styled.div`
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
+    flex-shrink: 0;
     color: white;
   }
 
@@ -93,6 +94,16 @@ export const BenefitsGrid = styled.div`
   .coffee {
     background: ${(props) => props.theme["purple-400"]};
   }
+
+  @media (max-width: 790px) {
+    ul {
+      grid-template-columns: 1fr;
+    }
+
+    li {
+      font-size: 0.875rem;
+    }
+  }
 `;
 
 export const CoffeeList = styled.div`
@@ -105,4 +116,8 @@ export const CoffeeGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2.5rem 2rem;
+
+  @media (max-width: 790px) {
+    grid-template-columns: 1fr;
+  }
 `;

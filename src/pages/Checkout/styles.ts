@@ -14,6 +14,10 @@ export const Container = styled.div`
     color: ${(props) => props.theme["gray-800"]};
     margin-bottom: 0.93rem;
   }
+
+  @media (max-width: 790px) {
+    padding: 1.5rem 2rem;
+  }
 `;
 
 export const FormSection = styled.form`
@@ -21,6 +25,14 @@ export const FormSection = styled.form`
   align-items: flex-start;
   justify-content: space-between;
   gap: 2rem;
+
+  @media (max-width: 790px) {
+    flex-direction: column;
+
+    > div {
+      width: 100%;
+    }
+  }
 `;
 
 export const InfoContainer = styled.div`
@@ -47,6 +59,12 @@ export const InfoContainer = styled.div`
       margin-bottom: 2rem;
       font-weight: 400;
     }
+  }
+
+  @media (max-width: 790px) {
+    max-width: 100%;
+    width: 100%;
+    padding: 1.5rem;
   }
 `;
 
@@ -113,6 +131,13 @@ export const PaymentContainer = styled.div`
       font-weight: 400;
     }
   }
+
+  @media (max-width: 790px) {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1.5rem;
+  }
 `;
 export const PaymentOptions = styled.div`
   display: flex;
@@ -133,6 +158,13 @@ export const CartTotal = styled.div`
   background: ${(props) => props.theme["white-200"]};
   padding: 2.5rem;
   border-radius: 6px 44px;
+
+  @media (max-width: 790px) {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+  }
 `;
 
 export const CartCoffee = styled.div`

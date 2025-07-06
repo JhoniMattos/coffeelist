@@ -5,6 +5,12 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 5rem 10rem;
   gap: 6.3rem;
+
+  @media (max-width: 790px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
 `;
 
 export const OrderConfirmed = styled.div`
@@ -76,5 +82,11 @@ export const OrderConfirmed = styled.div`
 
   .dollar {
     background-color: ${(props) => props.theme["yellow-500"]};
+  }
+
+  @media (max-width: 790px) {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
   }
 `;

@@ -7,6 +7,17 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 2rem 10rem;
+  flex-wrap: wrap;
+
+  @media (max-width: 790px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+      align-self: center;
+    }
+  }
 `;
 
 export const LocaleAndBuy = styled.div`
@@ -25,6 +36,11 @@ export const LocaleAndBuy = styled.div`
     font-weight: 400;
     padding: 0.5rem;
     text-align: center;
+  }
+
+  @media (max-width: 790px) {
+    width: 100%;
+    justify-content: space-between;
   }
 `;
 
