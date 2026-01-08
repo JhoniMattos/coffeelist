@@ -1,35 +1,57 @@
-<h1 align="center"> Coffee Delivery </h1>
+<h1 align="center">☕ Coffee Delivery</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar">Como Rodar</a>
 </p>
+
+---
+
+## 💻 Projeto
+
+Aplicativo web de uma cafeteria que permite ao usuário selecionar cafés, gerenciar o carrinho e finalizar o pedido com endereço e forma de pagamento.
+
+🔗 **Demo (deploy):**  
+👉 https://coffeelistt.netlify.app
+
+---
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Reactjs
-- JS
-- Vite
-- Typescript
-- Styled-componets
-- Reducer
-- Context
-- Immer
-- React Router Dom
+- React  
+- TypeScript  
+- Vite  
+- Styled Components  
+- React Router  
+- Context API + Reducer
+
+---
 
 ## 📘 Funcionalidades
 
-- Adicionar o café ao carrinho
-- Ir para parte de pagementos
-- Colocar o endereço
-- Forma de pagamento
-- Fazer checkout das compras
+- Adicionar cafés ao carrinho  
+- Remover cafés do carrinho  
+- Inserir endereço de entrega  
+- Escolher forma de pagamento
+- Navegação entre telas com React Router
 
-## 💻 Projeto
+---
 
-Coffee Delivery
+## 📦 Como rodar o projeto localmente
 
-- [Acesse o projeto finalizado, online](https://coffeelistt.netlify.app/).
+```bash
+# Clone o repositório
+git clone https://github.com/JhoniMattos/coffeelist.git
+
+# Vá para a pasta do projeto
+cd coffeelist
+
+# Instale dependências
+npm install
+
+# Inicie o projeto
+npm run dev
